@@ -41,7 +41,7 @@ public class ClockAnimator : MonoBehaviour
 	}
 
 	// Update is called once per frame
-	void Update ()
+	void Update()
 	{
 		DateTime time = DateTime.Now;
 		TimeSpan timespan = DateTime.Now.TimeOfDay;
